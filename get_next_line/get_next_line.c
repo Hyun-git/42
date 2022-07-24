@@ -22,7 +22,7 @@ static char *ft_reads(int fd, char *buffer, char *next_next_line)
 			return (NULL);
 		free(tmp);
 		tmp = NULL;
-		if (ft_strchr(buf, '\n'))
+		if (ft_strchr(buffer, '\n'))
 			break;
 	}
 	return (next_next_line);
