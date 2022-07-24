@@ -1,0 +1,10 @@
+.navbar {
+    padding: 16px;
+}
+
+.navbar form {
+    display: flex;
+    gap: 16px;
+    
+    white-space: nowrap;
+}
